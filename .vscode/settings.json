@@ -8,5 +8,8 @@
         "pthread",
         "pthreads",
         "REAMDE"
-    ]
+    ],
+    "files.associations": {
+        "ctype.h": "c"
+    }
 }
