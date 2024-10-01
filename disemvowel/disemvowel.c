@@ -23,9 +23,9 @@ char *disemvowel(char *str) {
 
   //Allocate Memory for new string based on non-vowel characters + 1
   char *result = (char *)malloc((count + 1) * sizeof(char));
-  // if (result == NULL) {
-  //   return NULL;
-  // }
+   if (result == NULL) {
+     return NULL;
+   }
 
   //Copy non-vowel characters
   int j = 0;
@@ -37,6 +37,7 @@ char *disemvowel(char *str) {
     result[j] = '\0';
     
   // Return new string
+  //free(result);
   return result;
 
   //return (char*) "";
