@@ -10,6 +10,7 @@
         "REAMDE"
     ],
     "files.associations": {
-        "ctype.h": "c"
+        "ctype.h": "c",
+        "sstream": "cpp"
     }
 }
